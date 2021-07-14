@@ -69,7 +69,7 @@ luck_type = [
     },
     {
         "good-luck": 25,
-        "name": "勉強運" 
+        "name": "勉強運"
     },
     {
         "good-luck": 26,

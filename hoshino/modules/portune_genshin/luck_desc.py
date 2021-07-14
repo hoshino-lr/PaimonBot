@@ -1,3 +1,11 @@
+'''
+Author: your name
+Date: 2021-06-01 22:15:04
+LastEditTime: 2021-07-14 12:25:40
+LastEditors: your name
+Description: In User Settings Edit
+FilePath: \HoshinoBot\HoshinoBot\hoshino\modules\portune_genshin\luck_desc.py
+'''
 luck_desc = [
     {
         "charaid": ["24"],
@@ -33,7 +41,7 @@ luck_desc = [
             }
 
 # {
-#         "charaid": ["24"],
+#         "charaid": ["2"],
 #         "_name": "可莉",
 #         "type": [
 #             {
