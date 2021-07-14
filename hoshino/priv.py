@@ -30,7 +30,7 @@ def set_block_user(user_id, time):
         _black_user[user_id] = datetime.now() + time
 
 
-def check_block_group(group_id):
+def check_block_group(group_id: object) -> object:
     if group_id in _black_group and datetime.now() > _black_group[group_id]:
         del _black_group[group_id]  # 拉黑时间过期
         return False

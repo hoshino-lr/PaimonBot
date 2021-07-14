@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hoshino/modules/Genshin_Impact_bot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hoshino/modules/priconne/gacha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hoshino/modules/setu_mix" vcs="Git" />
+  </component>
+</project>
