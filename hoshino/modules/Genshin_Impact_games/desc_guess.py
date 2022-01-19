@@ -9,7 +9,7 @@ from hoshino.typing import CQEvent, MessageSegment as Seg
 from . import _Genshin_Impact_data
 from . import GameMaster
 
-desc_DEBUG = True
+desc_DEBUG = False
 PREPARE_TIME = 8
 ONE_TURN_TIME = 5
 TURN_NUMBER = 4

@@ -1,0 +1,910 @@
+[2022-01-13 21:34:53,215 nonebot] ERROR: Failed to import and load "hoshino.modules.pokemangenshin.poke_man_genshin", error: No module named 'pandas'
+[2022-01-13 21:34:53,215 nonebot] ERROR: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-01-13 22:25:30,088 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.avator_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:25:30,089 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:25:30,103 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.chara", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:25:30,103 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:25:30,111 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.desc_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:25:30,111 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:25:30,116 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.setu_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:25:30,116 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:25:30,128 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.weapon_desc_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:25:30,128 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:25:30,132 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.weapon_icon_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:25:30,132 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:25:49,878 nonebot] ERROR: Failed to import and load "hoshino.modules.pokemangenshin.poke_man_genshin", error: No module named 'pandas'
+[2022-01-13 22:25:49,879 nonebot] ERROR: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-01-13 22:37:00,645 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.avator_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:37:00,645 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:37:00,654 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.chara", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:37:00,654 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:37:00,662 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.desc_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:37:00,662 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:37:00,668 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.setu_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:37:00,668 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:37:00,672 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.weapon_desc_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:37:00,673 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:37:00,678 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.weapon_icon_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:37:00,678 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:37:00,692 nonebot] ERROR: Failed to import and load "hoshino.modules.pokemangenshin.poke_man_genshin", error: No module named 'pandas'
+[2022-01-13 22:37:00,693 nonebot] ERROR: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-01-13 22:40:16,970 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.avator_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:16,970 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:40:16,979 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.chara", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:16,979 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:40:16,984 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.desc_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:16,984 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:40:16,989 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.setu_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:16,990 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:40:16,995 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.weapon_desc_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:16,995 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:40:17,002 nonebot] ERROR: Failed to import and load "hoshino.modules.Genshin_Impact_games.weapon_icon_guess", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:17,002 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:40:17,660 nonebot] ERROR: Failed to import and load "hoshino.modules.pokemangenshin.poke_man_genshin", error: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+[2022-01-13 22:40:17,660 nonebot] ERROR: invalid syntax. Perhaps you forgot a comma? (_Genshin_Impact_data.py, line 57)
+Traceback (most recent call last):
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\nonebot\plugin.py", line 419, in _load_plugin
+    module = importlib.import_module(module_path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import chara, _Genshin_Impact_data
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\__init__.py", line 85, in <module>
+    from . import avator_guess
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 6, in <module>
+    from hoshino.modules.Genshin_Impact_games import _Genshin_Impact_data, chara
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\_Genshin_Impact_data.py", line 57
+    148: ["派蒙(一周年)","Paimon(OneYear)","派蒙"]
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-01-13 22:45:11,805 chat] ERROR: <class 'KeyError'> occured when chat_waifu handling message -242039107.
+[2022-01-13 22:45:11,805 chat] ERROR: 'text'
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 215, in wrapper
+    if len(event.message) != 1 or event.message[0].data['text']:
+KeyError: 'text'
+[2022-01-13 22:45:46,652 chat] ERROR: <class 'AttributeError'> occured when chat_waifu handling message 1630395180.
+[2022-01-13 22:45:46,652 chat] ERROR: 'Love_master' object has no attribute 'record_love'
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\groupmaster\chat.py", line 25, in chat_waifu
+    await Paimon_love.record_love(ev.group_id, ev.user_id)
+AttributeError: 'Love_master' object has no attribute 'record_love'
+[2022-01-13 22:46:55,906 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message 884077650.
+[2022-01-13 22:46:55,906 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 11}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 11}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 22:47:57,587 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message 1703319501.
+[2022-01-13 22:47:57,587 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 27}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 27}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 22:55:14,710 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message 323210604.
+[2022-01-13 22:55:14,711 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 57}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 57}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 23:03:14,879 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message -1220334590.
+[2022-01-13 23:03:14,880 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 138}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 138}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 23:03:39,988 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message -953558899.
+[2022-01-13 23:03:39,989 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 142}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 142}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 23:04:14,129 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message 1717972838.
+[2022-01-13 23:04:14,130 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 148}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 148}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 23:05:13,550 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message 2138906151.
+[2022-01-13 23:05:13,550 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 158}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 158}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 23:08:30,576 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message -1649666570.
+[2022-01-13 23:08:30,576 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 191}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 191}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-13 23:08:48,055 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message 2105146600.
+[2022-01-13 23:08:48,056 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 194}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 194}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:28:49,118 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message 80220312.
+[2022-01-19 12:28:49,123 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 1}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 66, in avatar_guess
+    await bot.send(ev, f"猜猜这个图片是哪位角色色图的一部分?({ONE_TURN_TIME}s后公布答案)")
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 1}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:29:19,100 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message 1252807749.
+[2022-01-19 12:29:19,102 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 2}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 66, in avatar_guess
+    await bot.send(ev, f"猜猜这个图片是哪位角色色图的一部分?({ONE_TURN_TIME}s后公布答案)")
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 2}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:29:41,965 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message 1034642643.
+[2022-01-19 12:29:41,966 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 3}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 66, in avatar_guess
+    await bot.send(ev, f"猜猜这个图片是哪位角色色图的一部分?({ONE_TURN_TIME}s后公布答案)")
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 3}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:30:27,592 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message -1532873367.
+[2022-01-19 12:30:27,593 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 4}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 66, in avatar_guess
+    await bot.send(ev, f"猜猜这个图片是哪位角色色图的一部分?({ONE_TURN_TIME}s后公布答案)")
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 4}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:34:15,746 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message -744159745.
+[2022-01-19 12:34:15,747 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 5}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 66, in avatar_guess
+    await bot.send(ev, f"猜猜这个图片是哪位角色色图的一部分?({ONE_TURN_TIME}s后公布答案)")
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 5}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:34:15,944 hoshino] ERROR: 复读失败: <class 'aiocqhttp.exceptions.ActionFailed'>
+[2022-01-19 12:34:15,946 hoshino] ERROR: <ActionFailed data=None, echo={'seq': 6}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\groupmaster\random_repeater.py", line 35, in random_repeater
+    await bot.send(ev, util.filt_message(ev.message))
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 6}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:34:21,834 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message 1304531036.
+[2022-01-19 12:34:21,834 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 7}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 66, in avatar_guess
+    await bot.send(ev, f"猜猜这个图片是哪位角色色图的一部分?({ONE_TURN_TIME}s后公布答案)")
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 7}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 12:34:23,346 Genshin-Impact-setu-guess] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when avatar_guess handling message 986095818.
+[2022-01-19 12:34:23,347 Genshin-Impact-setu-guess] ERROR: <ActionFailed data=None, echo={'seq': 8}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\setu_guess.py", line 52, in avatar_guess
+    await bot.finish(ev, "游戏仍在进行中…")
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\__init__.py", line 41, in _finish
+    await _bot.send(event, message, **kwargs)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 8}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 13:04:07,858 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message -1950057175.
+[2022-01-19 13:04:07,860 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 147}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 147}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 13:04:48,670 poke-man-genshin] ERROR: <class 'aiocqhttp.exceptions.ActionFailed'> occured when storage handling message -1175314517.
+[2022-01-19 13:04:48,671 poke-man-genshin] ERROR: <ActionFailed data=None, echo={'seq': 156}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\pokemangenshin\poke_man_genshin.py", line 399, in storage
+    await bot.send(ev,
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 271, in send
+    return await self.send_msg(**params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\__init__.py", line 238, in call_action
+    return await self._api.call_action(action=action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 178, in call_action
+    result = await self._wsr_api.call_action(action, **params)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 153, in call_action
+    return _handle_api_result(await
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\aiocqhttp\api_impl.py", line 38, in _handle_api_result
+    raise ActionFailed(result=result)
+aiocqhttp.exceptions.ActionFailed: <ActionFailed data=None, echo={'seq': 156}, msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='请参考 go-cqhttp 端输出'>
+[2022-01-19 13:07:32,523 hoshino] ERROR: 缺少图片资源：./res/img\Genshin_Impact_icon\Paimon(Keqing).png
+[2022-01-19 13:07:32,525 Genshin-Impact-avatar-guess] ERROR: <class 'FileNotFoundError'> occured when avatar_guess handling message 1140477708.
+[2022-01-19 13:07:32,526 Genshin-Impact-avatar-guess] ERROR: [Errno 2] No such file or directory: './res/img\\Genshin_Impact_icon\\Paimon(Keqing).png'
+Traceback (most recent call last):
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\msghandler.py", line 28, in handle_message
+    await sf.func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\service.py", line 218, in wrapper
+    return await func(bot, event)
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\modules\Genshin_Impact_games\avator_guess.py", line 57, in avatar_guess
+    img = c.icon.open()
+  File "C:\Users\hoshino\Documents\GitHub\PaimonBot\hoshino\R.py", line 50, in open
+    return Image.open(self.path)
+  File "C:\Users\hoshino\AppData\Local\Programs\Python\Python310\lib\site-packages\PIL\Image.py", line 2953, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: './res/img\\Genshin_Impact_icon\\Paimon(Keqing).png'

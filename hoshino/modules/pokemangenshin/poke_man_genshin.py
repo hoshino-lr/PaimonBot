@@ -16,9 +16,9 @@ DIR_PATH = os.path.join(os.path.expanduser(hoshino.config.RES_DIR), 'Genshin_Imp
 DB_PATH = os.path.expanduser("~/.hoshino/poke_man_genshin.db")
 BD_PATH = os.path.expanduser("~/.hoshino/poke_baodi_genshin.npz")  # 保底
 POKE_GET_CARDS = 1  # 每一戳的卡片掉落几率
-POKE_DAILY_LIMIT = 3  # 机器人每天掉落卡片的次数
-RARE_PROBABILITY = 0.040  # 戳一戳获得五星卡片的概率
-SUPER_RARE_PROBABILITY = 0.006  # 戳一戳获得超稀有卡片的概率
+POKE_DAILY_LIMIT = 10  # 机器人每天掉落卡片的次数
+RARE_PROBABILITY = 0.10  # 戳一戳获得五星卡片的概率
+SUPER_RARE_PROBABILITY = 0.02  # 戳一戳获得超稀有卡片的概率
 POKE_TIP_LIMIT = 1  # 到达每日掉落上限后的短时最多提示次数
 TIP_CD_LIMIT = 10 * 60  # 每日掉落上限提示冷却时间
 POKE_COOLING_TIME = 3  # 增加冷却时间避免连续点击
@@ -413,15 +413,6 @@ async def send_card(bot, ev: CQEvent):
             trans_card(uid, ev.group_id)
         await bot.send(ev, f'转换成功')
 
-
-@sv.on_fullmatch('转换碎片')
-async def send_card(bot, ev: CQEvent):
-    uid = ev.user_id
-    if uid == 1786944781:
-        uids = db.get_uids(ev.group_id).keys()
-        for item in uids:
-            trans_card(uid, ev.group_id)
-        await bot.send(ev, f'转换成功')
 
 
 @sv.on_keyword('补偿')
