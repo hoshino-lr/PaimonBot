@@ -14,7 +14,7 @@ PREPARE_TIME = 8
 ONE_TURN_TIME = 5
 TURN_NUMBER = 4
 DB_PATH = os.path.expanduser("~/.hoshino/Genshin_Impact_desc_guess.db")
-NOT_USE = [100, 132, 134, 135, 139, 146, 148]
+NOT_USE = [100, 132, 134, 135, 139, 146, 148, 162]
 gm = GameMaster(DB_PATH)
 sv = Service("Genshin-desc-guess", bundle="原神娱乐", help_="""
 [猜原神角色] 猜猜bot在描述哪位角色

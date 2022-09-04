@@ -14,7 +14,7 @@ PATCH_SIZE = 60
 ONE_TURN_TIME = 16
 DB_PATH = os.path.expanduser("~/.hoshino/Genshin_Impact_avatar_guess.db")
 BLACKLIST_ID = [1072, 1908, 4031, 9000]
-NOT_USE = [100, 132, 134, 135, 139,146,148]
+NOT_USE = [100, 132, 134, 135, 139, 146, 148, 162]
 gm = GameMaster(DB_PATH)
 sv = Service(
     "Genshin-Impact-avatar-guess",
@@ -78,6 +78,6 @@ async def on_input_chara_name(bot, ev: CQEvent):
     if c.id != chara.UNKNOWN and c.id == game.answer:
         game.winner = ev.user_id
         n = game.record()
-        await Paimon_love.get_record(bot,ev,ev.group_id, ev.user_id)
+        await Paimon_love.get_record(bot, ev, ev.group_id, ev.user_id)
         msg = f"正确答案是：{c.name}{c.icon.cqcode}\n{Seg.at(ev.user_id)}猜对了，真厉害！TA已经猜对{n}次了~\n(派蒙好感度上升)"
         await bot.send(ev, msg)

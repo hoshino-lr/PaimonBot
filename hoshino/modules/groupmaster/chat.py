@@ -4,14 +4,17 @@ from nonebot import on_command
 from hoshino.modules.Paimon_love.love import Paimon_love
 from hoshino import R, Service, priv, util
 
-fuck_sakura_count = 41
+fuck_sakura_count = 43
+
 
 # basic function for debug, not included in Service('chat')
 @on_command('zai?', aliases=('在?', '在？', '在吗', '在么？', '在嘛', '在嘛？'), only_to_me=True)
 async def say_hello(session):
     await session.send('派蒙一直在旅行者身边哦')
 
+
 sv = Service('chat', visible=False)
+
 
 @sv.on_fullmatch('朋友', only_to_me=True)
 async def say_sorry(bot, ev):
@@ -33,7 +36,7 @@ async def chat_laogong(bot, ev):
 @sv.on_fullmatch('mua', only_to_me=True)
 async def chat_mua(bot, ev):
     await bot.send(ev, '旅行者亲一下也不是不可以啦~', at_sender=True)
-    await Paimon_love.get_record(bot, ev, ev.group_id, ev.user_id,2)
+    await Paimon_love.get_record(bot, ev, ev.group_id, ev.user_id, 2)
 
 
 @sv.on_fullmatch('应急食品')
@@ -84,7 +87,7 @@ async def sakura_fuck_count(bot, ctx):
 @sv.on_keyword('suki', only_to_me=True)
 async def chat_mua(bot, ev):
     pic = R.img("dokidoki.jpg").cqcode
-    await Paimon_love.get_record(bot, ev, ev.group_id, ev.user_id,4)
+    await Paimon_love.get_record(bot, ev, ev.group_id, ev.user_id, 4)
     await bot.send(ev, f'派蒙也喜欢旅行者，dokidoki\n{pic}', at_sender=True)
 
 

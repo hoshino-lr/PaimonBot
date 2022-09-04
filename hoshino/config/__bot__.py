@@ -33,7 +33,6 @@ RES_URL = 'http://127.0.0.1:5000/static/'
 MODULES_ON = {
     'botmanage',
     'groupmaster',
-    'Genshin_Impact_bot',
     'Paimon_love',
     'pokemangenshin',
     'Genshin_Impact_games'
